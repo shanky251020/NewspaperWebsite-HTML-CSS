@@ -1,0 +1,121 @@
+/* This style is applied to all */
+*{
+    box-sizing: border-box;
+}
+
+/* brand-name class */ 
+.brand-name{
+  font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom:3px solid black;
+}
+
+/* horizontal class - represents the section */
+.Horizontal{
+    display:flex;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    align-items:stretch;
+}
+/*This specifies the space how quarter part takes    */
+.quarter{
+    width: 25%;
+}
+
+/* Article title */
+.article-title{
+    text-align: center;
+    font-size: 30px;
+    font-style:italic;
+    font-weight: normal;
+}
+/* Story */
+.story{
+    border-right: 1px solid black;
+    padding:0 10px;
+}
+/*This specifies the space how half part takes  */
+.half{
+    width:50%;
+}
+/*This specifies the space how three-quarter part takes */
+.three-quarter{
+    width:75%;
+}
+
+/* Site-section */
+.site-section{
+display:flex;
+flex-direction:column;
+flex:1;
+padding-left: 30px;
+color: black;
+text-decoration: none;
+font-size: 30px;
+  
+font-weight: bold;
+font-family: "Futura";
+color: #666;
+align-items: center;
+  
+}
+
+/*Styling the site-section individually  */
+
+  .site-section-local {
+    background-color: #55efc4;
+  }
+
+
+  
+  .site-section-tech {
+    background-color: #81ecec;
+  }
+  
+  .site-section-Opinion {
+    background-color: #74b9ff;
+  }
+  
+  .site-section-sports {
+    background-color: #a29bfe;
+  }
+  
+  .site-section-politics {
+    background-color: #ffeaa7;
+  }
+  
+  /* Hover */
+  .site-section-local:hover {
+    background-color: violet;
+  }
+
+
+  
+  .site-section-tech:hover {
+    background-color: indigo;
+  }
+  
+  .site-section-Opinion:hover {
+    background-color: crimson;
+  }
+  
+  .site-section-sports:hover {
+    background-color: green;
+  }
+  
+  .site-section-politics:hover {
+    background-color: yellow;
+  }
+
+
+.other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  } 
+  
